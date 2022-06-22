@@ -1,14 +1,56 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "users": [
+    {
+      "id": "1k430dwq45",
+      "username": "oxx",
+      "score": 10,
+      "active": true
+    },
+    {
+      "id": "osdkjw435k",
+      "username": "apple",
+      "score": 5,
+      "active": true
+    },
+    {
+      "id": "k3lco602do",
+      "username": "shell",
+      "score": 9,
+      "active": true
+    },
+    {
+      "id": "k00cer42do",
+      "username": "dark",
+      "score": 30,
+      "active": false
+    },
+    {
+      "id": "2g73ddd965",
+      "username": "sun",
+      "score": 834,
+      "active": true
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "attempts": [
+    {
+      "id": "1000",
+      "score": 1,
+      "userId": "k3lco602do"
+    },
+    {
+      "id": "1001",
+      "score": 0,
+      "userId": "1k430dwq45"
+    },
+    {
+      "id": "1002",
+      "score": 1,
+      "userId": "osdkjw435k"
+    },
+    {
+      "id": "1002",
+      "score": 1,
+      "userId": "osdkjw435k"
+    }
+  ]
 }
